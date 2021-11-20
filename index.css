@@ -1,0 +1,43 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-bg {
+  background-color: #ff7979;
+  background-image: url('./images/bg-intro-desktop.png');
+}
+
+.container {
+  max-width: 1200px; /* can we use rem instead of px? */
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.row .column {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.centered-paragraph {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 55px;
+  font-weight: 700;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  margin: 0;
+}
